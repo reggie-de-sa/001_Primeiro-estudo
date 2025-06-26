@@ -24,7 +24,29 @@ git status
 git commit -m "Adicionado o ciclo de atualização de código"
 git push
 
+# Ver o histórico das versões
+no prompt do Git Bash: git reflog
+
+# Navegar entre as versões do código
 no prompt do Git Bash: 
+git reset --hard <id da versao>
+ALERTA: usar com muita certeza
+
+# Criar uma Branch
+no prompt do Git Bash: 
+git branch
+git branch staging
+git checkout staging
+git add .
+git commit -m "adicionando codigos na branch staging"
+git push --set-upstream origin staging
+git push 
+
+no prompt do Git Bash: 
+
+
+no prompt do Git Bash: 
+
 
 no prompt do Git Bash: 
 
