@@ -1,0 +1,7 @@
+botão direito nesta pasta > Open Git Bash Here
+no prompt do Git Bash: git init
+isso vai gerar uma sub-pasta oculta .git
+
+git status
+
+
