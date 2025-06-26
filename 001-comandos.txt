@@ -2,6 +2,26 @@ botão direito nesta pasta > Open Git Bash Here
 no prompt do Git Bash: git init
 isso vai gerar uma sub-pasta oculta .git
 
+no prompt do Git Bash: git status
+
+Adicionar aquivos ao controle de versão
+no prompt do Git Bash: git add "meu codigo.txt"
+ou git add . --> para adicionar todos os arquivos da pasta
+
+Criar versões do código com commit
+no prompt do Git Bash: git commit -m "commit inicial"
+
+Enviar versão do código para o servidor na nuvem
+no prompt do Git Bash:
+git remote add origin https://github.com/reggie-de-sa/001_Primeiro-estudo
+git push
+
+Ciclo de atualização de código
+no prompt do Git Bash: 
 git status
+
+no prompt do Git Bash: 
+
+no prompt do Git Bash: 
 
 
