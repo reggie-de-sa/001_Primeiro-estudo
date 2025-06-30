@@ -39,11 +39,17 @@ git branch staging
 git checkout staging
 git add .
 git commit -m "adicionando codigos na branch staging"
+git push
 git push --set-upstream origin staging
-git push 
 
+# Merge de Branches
 no prompt do Git Bash: 
-
+git branch
+git checkout master
+git branch
+git pull
+git merge staging
+git push
 
 no prompt do Git Bash: 
 
