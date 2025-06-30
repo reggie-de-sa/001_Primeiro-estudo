@@ -51,9 +51,29 @@ git pull
 git merge staging
 git push
 
+# Criar nova branch para trabalhar em uma funcionalidade específica
 no prompt do Git Bash: 
+git branch
+git checkout master
+git pull
+git checkout -b sistema-de-login master
+
+# Pull request - um merge democrático
+no prompt do Git Bash: 
+git checkout sistema-de-login
+git add
+git commit -m "adicionado campos de entrada do sistema de login"
+git push
+
+no https://github.com/reggie-de-sa/001_Primeiro-estudo/tree/sistema-de-login
+clicar em Compare & Pull request, da branch sistema-de-login
+parametrizar os macth para branch master, a partir da branch sistema-de-login
+descrever detalhes da alteração (boa prática de domumentação)
+clicar em Create pull request
 
 
+no prompt do Git Bash: 
+no prompt do Git Bash: 
 no prompt do Git Bash: 
 
 
